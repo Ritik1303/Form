@@ -1,0 +1,135 @@
+html{
+  font-size : 100%;
+  font-family: 'Lato', sans-serif;
+  background-color:#c0e0de;
+  font-weight: bold;
+  margin-left: 15px;
+}
+input, textarea{
+  margin: 20px auto 20px auto;
+  border-color:black;
+  font-size=100%;
+  width:150px;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  border-radius:7px;
+  background-color: #ede3b8;
+  padding: 5px;
+  padding: 5px;
+  margin:10px;
+}
+textarea{
+  height:80px;
+  vertical-align:middle;
+  border:2px solid black;
+}
+#file{
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  width:14.5em;
+  border-radius: 8px;
+  background-color: #ede3b8
+  border: 2px solid black;
+}
+input[type="date"], input[type="time"]{
+  color:grey;
+}
+#color{
+  vertical-align: middle;
+}
+#range{
+  vertical-align:middle;
+  margin-left: 15px;
+}
+button{
+  margin-top: 20px;
+}
+input[type="url"], input[type="email"]{
+  width:20em;
+}
+button{
+  margin: 20px 10px 20px 10px;
+  border-color:black;
+  font-size=100%;
+  width:150px;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  border-radius:7px;
+  background-color: #ede3b8;
+  padding: 5px;
+  cursor:pointer;
+}
+fieldset{
+border:none;}
+
+input  [type="checkbox" ] +  label
+{
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  border: 5px solid black;
+  background-color: #ede3b8;
+  padding: 4px 10px;
+  border-radius: 7px;
+  display: inline-block;
+  width: 4em;
+  text-align: center; 
+}
+input  [type="checkbox" ]:checked +  label{
+   border: 2px solid blue;
+  background-color: blue;
+}
+select{
+  display: block;
+  margin-bottom:20px;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  background-color:#ede3b8;
+  margin-left: 12px;
+  margin-top: 5px;
+
+}
+select:not([multiple]){ background:url(https://image.flaticon.com/icons/png/512/37/37808.png) right center no-repeat;
+  background-size: 1em 1em;
+  padding-right: 1em;
+   background-color:#fdebd0;
+}
+
+select{
+  padding : 8px 1px 8px 8px;
+  background-color:#fdebd0;
+  border:2px solid black;
+}
+
+option{
+  padding:5px;
+}
+optgroup{
+  border : 1px dashed #3a5250;
+   padding : 5px;
+}
+
+button[type="reset"]:focus, button[type="submit"]:focus{
+  border : 2px solid grey;
+  outline:none;
+} 
+button[type="reset"]:hover, button[type="submit"]:hover{
+  border : 2px solid #3a5250;
+  background-color: grey;
+}
+button[type="submit"]:active, button[type="submit"]:active{
+  background-color:#eadcc8;
+}
+input:hover, textarea:hover, select:hover{
+  background-color:white;
+  border: 2px solid #0163a1;
+}
+input:focus, textarea:focus, select:focus{
+  background-color:white;
+  border-radius: 0px
+}
+input[type="checkbox"]:checked + label{
+  background-color: chocolate;
+}
